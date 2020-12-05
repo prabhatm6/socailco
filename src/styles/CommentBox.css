@@ -1,0 +1,40 @@
+.comment{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    text-decoration: none !important;
+}
+
+.comment__box{
+    display: flex;
+}
+
+
+.comment__top p:nth-child(1){
+    font-size: 19px !important;
+    font-weight: bold;
+}
+
+.comment__text p{
+    margin: 0px !important;
+    color: #000;
+}
+.comment__name:hover{
+    color: #000;
+    text-decoration: underline !important;
+}
+
+.comment__top span{
+    font-size: 14px !important;
+    color: rgb(134, 134, 134);
+    text-decoration: none !important;
+}
+
+.tweet__media img{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 430px;
+    margin-left: 40px;
+}

@@ -1,0 +1,244 @@
+.overview{
+    flex: 35%;
+    border-right: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.overview__header{
+    padding: 15px !important;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.overview__header P{
+    margin: 0px !important;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.overview__avtar{
+    height: 50px !important;
+    width: 50px !important;
+    margin-right: 10px !important;
+    border: 1px solid lightgrey;
+}
+
+
+
+.overview__user-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overview__user-desc p{
+    margin: 0 !important;
+}
+
+.overview__user-desc p:nth-child(1){
+    font-weight: bold;
+    font-size: 18px !important;
+}
+.overview__user-desc p:nth-child(2){
+    font-weight: 400;
+    color: rgb(167, 167, 167);
+    font-size: 16px !important;
+}
+
+.overview__user{
+    padding: 10px;
+    display: flex;
+
+    align-items: center;
+}
+
+.overview__info{
+    padding: 5px 15px 0px 15px !important;
+}
+
+.overview__info .text{
+    margin: 0 !important;
+
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(99, 99, 99);
+    margin-bottom: 15px !important;
+}
+
+.overview img{
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.overview__details{
+    border-bottom: 1px solid lightgray;
+}
+
+.overview__details p{
+    margin-bottom: 10px !important;
+    margin-left: 7px !important;
+    font-size: 16px !important;
+    font-weight: normal;
+    color: #000 !important;
+}
+
+.overview__react{
+    padding: 0px 15px 10px 15px !important;
+}
+
+.overview__react p{
+    margin: 0 !important;  
+}
+
+.overview__react p span{
+    font-weight: bold;
+    font-size: 19px;
+    color: #000;
+}
+
+.overview__respond {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.overview__respond:nth-child(1){
+    font-size: 16px !important;
+    font-weight: normal;
+    color: rgb(73, 73, 73) !important;
+}
+
+.overview__actions{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 0px 10px;
+}
+
+.overview__actions .MuiSvgIcon-root{
+    height: 32px;
+    width: 32px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.heartIcon:hover{
+    background-color: rgba(255, 37, 37, 0.61) !important;
+}
+
+.heartIcon-clicked{
+    fill: rgba(255, 37, 37, 0.61) !important;
+}
+/* css for tweet components */
+
+.tweet__container{
+    position: relative;
+}
+
+.tweet{
+    display: flex;
+    flex-direction: column;  
+    padding: 15px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.tweet__box{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet__profile{
+    display: flex;
+}
+
+.tweet__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+    position: relative;
+}
+
+.tweet__top p:nth-child(1){
+    font-size: 19px !important;
+    font-weight: bold;
+}
+
+.tweets__text{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.tweets__text p{
+    margin-left: 22px;
+    color: #000;
+}
+
+.tweet__name{
+    font-size: 17px !important;
+    text-decoration: none !important;
+    color: #000;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.tweet__name:hover{
+    color: #000;
+    text-decoration: underline !important;
+}
+
+.tweet__top span{
+    font-size: 14px !important;
+    color: rgb(134, 134, 134);
+    text-decoration: none !important;
+}
+
+.tweets__text{
+    margin-left: 5px !important;
+    margin-bottom: 7px !important;
+}
+
+.tweet__delete{
+    fill: #000 !important;
+    cursor: pointer;
+    height: 20px !important;
+    width: 20px !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.tweet__media img{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 430px;
+    height: 300px;
+    object-fit: contain;
+    margin-right: 10px;
+    border: 1px solid grey;
+}
+
+.tweet__actions{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.tweet__actions .MuiSvgIcon-root{
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}

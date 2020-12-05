@@ -1,0 +1,114 @@
+.profile {
+  flex: 32%;
+  border-right: 1px solid lightgrey;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.profile__header {
+  height: 50px;
+  width: 557.2px;
+  z-index: 999;
+  background-color: #fff;
+  padding-left: 20px;
+  position: fixed;
+  top:0;
+}
+
+.profile__body{
+  margin-top: 50px;
+}
+
+.profile__header .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile__header .tweets {
+  opacity: 0.6;
+}
+
+.media {
+  position: relative;
+}
+.profile__cover {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.profile__cover img {
+  height: 100%;
+  width: 100%;
+}
+
+.media .avtar {
+  width: 27%;
+  height: 150px;
+  position: absolute;
+  border-radius: 100px;
+  bottom: -70px;
+  left: 20px;
+  z-index: 20;
+  border: 3px solid lightgrey;
+}
+
+.profile__btn {
+  position: absolute;
+  right: 10px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  outline: none;
+  border: 2px solid var(--twitter-color);
+  background-color: #fff;
+  color: var(--twitter-color);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.profile__info {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.profile__info .name {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.profile__info .username {
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+.profile__info .date {
+  font-size: 17px;
+  font-weight: normal;
+  opacity: 0.6;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.date__icon {
+  margin-right: 7px;
+}
+
+.profile__info .friends {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.profile__info .friends a {
+  text-decoration: none;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

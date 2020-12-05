@@ -1,0 +1,118 @@
+.followinfo__container {
+  display: flex;
+  flex-direction: column;
+  flex: 32%;
+  border: 1px solid lightgray;
+  overflow-y: scroll;
+}
+
+.profilefollow__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.profilefollow__header {
+  height: 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profilefollow__header p {
+  margin-left: 25px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+  color: #000;
+}
+
+.followinfo__profile {
+  display: flex;
+}
+.followinfo__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  margin-left: 5px !important;
+  justify-content: space-between;
+}
+
+.followinfo__main {
+  display: flex;
+  border-top: 1px solid lightgrey;
+  padding: 5px 10px;
+}
+
+.naming__name {
+  margin-left: 10px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+}
+
+.user__caption {
+  margin-left: 15px;
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+}
+
+.naming__username {
+  margin-left: 5px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+}
+
+.info__btn{
+  position: relative;
+}
+
+.info__btn button {
+  padding: 6px 18px;
+  outline: none;
+  border: 1px solid var(--twitter-color);
+  border-radius: 100px;
+  background-color: #fff;
+  color: #50b7f5;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+  position: relative;
+}
+
+.info__btn .follow:hover {
+  background-color: var(--twitter-color);
+  color: #fff;
+}
+
+.unfollow {
+  display: block;
+  position: relative;
+  background-color: var(--twitter-color) !important;
+  color: #fff !important;
+  z-index: 10 !important;
+  border: none !important;
+}
+.unfollow::before {
+  content: "unfollow";
+  width: 100% !important;
+  height: 100% !important;
+  left: 0px;
+  top: 0px !important;
+  position: absolute;
+  opacity: 0;
+  border-radius: 100px;
+  line-height: 30px;
+  border: none !important;
+}
+
+.unfollow:hover::before {
+  background-color: rgba(255, 44, 79, 0.945);
+  z-index: 100 !important;
+  opacity: 1;
+  z-index: 100 !important;
+}
